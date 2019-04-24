@@ -36,7 +36,7 @@ function cleverbotSend(message, callback){
         lgp("Response found...");
 
         //IT TOOK ME WAYYY TOO LONG TO WORK OUT THESE ARE SEPARATED BY '\r'
-        //I'm keeping it commented as a reminder of my
+        //I'm keeping the debug code commented instead of deleting, as a reminder of my incompetence.
 
        // console.log(response.status());
         response.text().then(r =>{
